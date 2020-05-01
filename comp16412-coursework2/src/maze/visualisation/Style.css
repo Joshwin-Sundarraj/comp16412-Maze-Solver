@@ -1,0 +1,28 @@
+.root
+{
+    -fx-background-color: linear-gradient(to bottom left, #9d65de,#b132b5);
+}
+
+.button
+{
+    -fx-background-color: linear-gradient(to top, rgba(0,0,0,1),rgba(56,53,53,0.5));
+    -fx-font-size: 15pt;
+    -fx-text-fill: pink;
+    -fx-background-radius:  20;
+    -fx-border-radius: 20;
+}
+
+.button:hover
+{
+    -fx-background-color: linear-gradient(to bottom, rgb(255, 255, 255),rgba(56,53,53,0.5));
+    -fx-font-size: 15pt;
+    -fx-text-fill: black;
+    -fx-background-radius:  20;
+    -fx-border-radius: 20;
+}
+
+
+.hbox
+{
+    -fx-background-color: black;
+}
